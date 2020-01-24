@@ -26,7 +26,7 @@ int combination(int n, int r)
 	}
 	else
 	{
-		return n*combination(n-1,r-1)/r;
+		return 1.0*combination(n-1,r-1)/r*n;
 	}
 }
 
